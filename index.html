@@ -54,25 +54,28 @@
 
     <!-- Navbar Starts Here -->
     <!-- Outer Navbar Container -->
-    <div class="xl:w-11/12 m-auto px-2 max-w-7xl py-4 flex items-center justify-between relative">
+   <div class="xl:w-11/12 m-auto px-2 max-w-7xl py-4 flex items-center justify-between relative">
   <!-- Logo -->
   <div class="shrink-0">
     <img src="assets/images/Logo.svg" alt="Logo" class="w-[240px] block cursor-pointer" />
   </div>
 
-  <!-- Hamburger toggle (only visible on mobile) -->
+  <!-- Hamburger toggle -->
   <input type="checkbox" id="menu-toggle" class="peer hidden" />
-  <label for="menu-toggle" class="xl:hidden flex flex-col gap-[5px] cursor-pointer z-50">
+  <label
+    for="menu-toggle"
+    class="xl:hidden flex flex-col gap-[5px] cursor-pointer z-50"
+  >
     <span class="w-6 h-[2px] bg-black"></span>
     <span class="w-6 h-[2px] bg-black"></span>
     <span class="w-6 h-[2px] bg-black"></span>
   </label>
 
-  <!-- Navigation & Right Side (everything except logo) -->
+  <!-- Navigation content -->
   <div
-    class="absolute top-full left-0 w-full xl:static xl:w-full bg-white xl:bg-transparent peer-checked:flex hidden xl:flex flex-col xl:flex-row items-center xl:items-center px-6 xl:px-0 py-6 xl:py-0 z-40 shadow-xl xl:shadow-none justify-between"
+    class="absolute top-full left-0 w-full xl:static xl:w-full bg-white xl:bg-transparent peer-checked:flex hidden xl:flex flex-col xl:flex-row items-start xl:items-center px-6 xl:px-0 py-6 xl:py-0 z-40 shadow-xl xl:shadow-none xl:justify-between"
   >
-    <!-- Nav Links (center on xl) -->
+    <!-- Nav Links (left-aligned on mobile) -->
     <ul class="flex flex-col xl:flex-row gap-5 xl:gap-8 text-black font-medium xl:mx-auto">
       <li class="cursor-pointer hover:text-[#FF9638]">HOME</li>
       <li class="cursor-pointer hover:text-[#FF9638]">ABOUT US</li>
@@ -85,7 +88,7 @@
       <li class="cursor-pointer hover:text-[#FF9638]">BLOG</li>
     </ul>
 
-    <!-- Right Side: Icons and Contact Button -->
+    <!-- Right Side (left-aligned in mobile too) -->
     <div class="flex flex-col xl:flex-row xl:items-center gap-5 mt-4 xl:mt-0 xl:ml-auto">
       <div>
         <img
@@ -109,6 +112,7 @@
     </div>
   </div>
 </div>
+
 
 
     <!-- Navbar Ends Here -->
