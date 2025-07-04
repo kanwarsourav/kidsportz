@@ -17,6 +17,10 @@
       font-family: "Lato", sans-serif;
     }
 
+    year-font {
+      font-family: "Lato", sans-serif;
+    }
+
     .banner-font {
       font-family: "Playfair Display", serif;
     }
@@ -111,7 +115,7 @@
   <!-- Banner Starts Here -->
   <div class="bg-[url('/assets/images/Banner-bg.svg')] bg-cover bg-center h-auto w-full">
     <div class="xl:w-11/12 m-auto px-2 max-w-7xl flex flex-wrap md:flex-nowrap justify-center md:justify-between">
-      <div>
+      <div class="w-[60%]">
         <ul class="flex flex-col gap-3">
           <li class="text-xl text-[#FF9F49] mt-20">Quest For Knowledge</li>
           <li class="banner-font text-[70px]  font-bold text-white leading-none">
@@ -133,7 +137,7 @@
           </div>
         </ul>
       </div>
-      <div class="flex justify-center items-center">
+      <div class="flex justify-center items-center w-[50%]">
         <img src="assets/images/Girl-img.svg" alt="Girl-img" />
       </div>
     </div>
@@ -143,12 +147,12 @@
 
   <!-- About Starts Here -->
   <div class="bg-[#FFFAF6]">
-    <div class="xl:w-11/12 m-auto px-2 max-w-7xl flex flex-wrap md:flex-nowrap justify-center md:justify-between pb-4">
-      <div class="flex justify-center mt-20 h-[70%]">
-        <img src="assets/images/Cricket-kid.svg" alt="Cricket-kid" />
+    <div class="xl:w-11/12 m-auto px-2 max-w-7xl flex flex-wrap md:flex-nowrap justify-center md:justify-between py-8">
+      <div class="flex justify-center items-center w-[40%] ">
+        <img src="assets/images/Cricket-kid.svg" alt="Cricket-kid" class="flex justify-center items-center" />
       </div>
-      <div>
-        <ul class="flex flex-col gap-3">
+      <div class="w-[43%]">
+        <ul class="flex flex-col gap-3 ">
           <li class="text-xl text-[#FF9F49] mt-20">About KIDZSPORT</li>
           <li class="banner-font  text-[52px] font-bold text-[#002D45] leading-none">
             Engaging kids <br />
@@ -202,7 +206,7 @@
         <ul class="flex flex-col md:gap-3 justify-center text-center">
 
           <li class="banner-font text-[52px] font-bold text-[#002D45] flex flex-col justify-center leading-none">
-            <span class=" text-[#FF8010] mt-20 ">2024</span>
+            <span class=" text-[#FF8010] mt-20 year-font">2024</span>
             Sports Kids <br />
             Events
           </li>
@@ -266,7 +270,7 @@
       <div class="flex flex-wrap flex-col pl-3">
         <div class="flex flex-wrap md:flex-nowrap gap-5 justify-center flex-col md:flex-row">
           <div
-            class="flex hover:bg-[#FFFBF6] border-[#FF9F49] border-1 p-2 md:w-[45%] rounded-2xl gap-3 transition-all duration-100 hover:border-r-4 hover:border-b-4 hover:border-[#FF9F49] hover:rounded-br-3xl">
+            class="flex hover:bg-[#FFFBF6] border-[#FF9F49] border-1 p-2 md:w-[45%] rounded-2xl gap-3 transition-all duration-100 hover:border-r-9 hover:border-b-9 hover:border-[#FF9F49] hover:rounded-br-3xl">
 
 
             <div class="flex items-start mt-2">
@@ -283,7 +287,7 @@
             </div>
           </div>
           <div
-            class="flex hover:bg-[#F1E1F0] border-[#921C8E] border-1 p-2 md:w-[45%] rounded-2xl gap-3 transition-all duration-100 hover:border-r-4 hover:border-b-4 hover:border-[#921C8E] hover:rounded-br-3xl">
+            class="flex hover:bg-[#F1E1F0] border-[#921C8E] border-1 p-2 md:w-[45%] rounded-2xl gap-3 transition-all duration-100 hover:border-r-9 hover:border-b-9 hover:border-[#921C8E] hover:rounded-br-3xl">
 
             <div class="flex items-start mt-2">
               <img src="assets/images/Half-ball.svg" alt="trophy" />
@@ -302,7 +306,7 @@
         </div>
         <div class="flex gap-5 flex-wrap md:flex-nowrap justify-center mt-4 flex-col md:flex-row">
           <div
-            class="flex hover:bg-[#DEF0E3] border-[#259E44] border-1 p-2 md:w-[45%] rounded-2xl gap-3 transition-all duration-100 hover:border-r-4 hover:border-b-4 hover:border-[#259E44] hover:rounded-br-3xl">
+            class="flex hover:bg-[#DEF0E3] border-[#259E44] border-1 p-2 md:w-[45%] rounded-2xl gap-3 transition-all duration-100 hover:border-r-9 hover:border-b-9 hover:border-[#259E44] hover:rounded-br-3xl">
             <div class="flex items-start mt-2">
               <img src="assets/images/Speaker.svg" alt="trophy" />
             </div>
@@ -317,7 +321,7 @@
             </div>
           </div>
           <div
-            class="flex hover:bg-[#E5F4FA] border-[#0091D1] border-1 p-2 md:w-[45%] rounded-2xl gap-3 transition-all duration-100 hover:border-r-4 hover:border-b-4 hover:border-[#0091D1] hover:rounded-br-3xl">
+            class="flex hover:bg-[#E5F4FA] border-[#0091D1] border-1 p-2 md:w-[45%] rounded-2xl gap-3 transition-all duration-100 hover:border-r-9 hover:border-b-9 hover:border-[#0091D1] hover:rounded-br-3xl">
             <div class="flex items-start mt-2">
               <img src="assets/images/Shield.svg" alt="trophy" />
             </div>
@@ -348,9 +352,11 @@
       </div>
 
       <ul class="text-center py-9 px-4">
-        <li class="text-orange-500 font-semibold uppercase tracking-wide text-lg">
+        <li class="text-orange-500 font-semibold uppercase tracking-wide text-lg flex flex-col items-center">
           Our Programs
+          <img src="assets/images/Underline.svg" alt="" class="w-[140px] ">
         </li>
+
         <li class="banner-font text-[42px] font-bold text-[#002D45] mt-2">
           Young Minds <br />
           Adventures and Innovations
@@ -373,14 +379,11 @@
                 elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque
                 sit amet sapien.
               </p>
-              <div class="flex justify-between mt-3">
-                <ul class="flex justify-between gap-10">
+              <div class=" mt-3">
+                <ul class="flex justify-between ">
                   <li
                     class="flex items-center px-8 py-2 rounded-2xl text-[#FF8010] bg-[#ff871e4f] text-xs font-bold cursor-pointer transition hover:opacity-90">
                     8-18 Years old
-                    <div class="flex items-center ml-1 w-[18px] h-[18px]">
-                      <img src="assets/images/arrow-right-blue.svg" alt="Arrow" />
-                    </div>
                   </li>
                   <li class="flex items-center py-2 rounded-full text-[#002D45] text-base cursor-pointer">
                     Join Now
@@ -406,14 +409,12 @@
                 elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque
                 sit amet sapien.
               </p>
-              <div class="flex justify-between mt-3">
+              <div class=" mt-3">
                 <ul class="flex justify-between gap-10">
                   <li
                     class="flex items-center px-8 py-2 rounded-2xl text-[#FF8010] bg-[#ff871e4f] text-xs font-bold cursor-pointer transition hover:opacity-90">
                     8-18 Years old
-                    <div class="flex items-center ml-1 w-[18px] h-[18px]">
-                      <img src="assets/images/arrow-right-blue.svg" alt="Arrow" />
-                    </div>
+
                   </li>
                   <li class="flex items-center py-2 rounded-full text-[#002D45] text-base cursor-pointer">
                     Join Now
@@ -438,14 +439,12 @@
                 elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque
                 sit amet sapien.
               </p>
-              <div class="flex justify-between mt-3">
+              <div class=" mt-3">
                 <ul class="flex justify-between gap-10">
                   <li
                     class="flex items-center px-8 py-2 rounded-2xl text-[#FF8010] bg-[#ff871e4f] text-xs font-bold cursor-pointer transition hover:opacity-90">
                     8-18 Years old
-                    <div class="flex items-center ml-1 w-[18px] h-[18px]">
-                      <img src="assets/images/arrow-right-blue.svg" alt="Arrow" />
-                    </div>
+
                   </li>
                   <li class="flex items-center ju py-2 rounded-full text-[#002D45] text-base cursor-pointer">
                     Join Now
@@ -560,7 +559,8 @@
       <section class="py-5 rounded-xl px-2">
         <div class="max-w-7xl mx-auto px-4 flex flex-wrap md:flex-nowrap justify-center md:justify-between gap-7">
           <!-- Card 1 -->
-          <div class="bg-[#259E44] rounded-xl overflow-hidden shadow-md">
+          <div
+            class="bg-[#259E44] rounded-xl overflow-hidden shadow-md transition-all duration-300 hover:border-r-15 hover:border-b-14 hover:border-[#E8E4E1] hover:rounded-br-3xl">
             <img src="assets/images/Race.svg" alt="Kids Climbing" class="w-full h-56 p-1 mt-3" />
             <div class="flex gap-2 px-9">
               <ul class="flex gap-2">
@@ -597,8 +597,9 @@
           </div>
 
           <!-- Card 2 -->
-          <div class="bg-[#259E44] rounded-xl overflow-hidden shadow-md">
-            <img src="assets/images/family-ludo.svg" alt="Kids Climbing" class="w-full h-60  mt-4" />
+          <div
+            class="bg-[#259E44] rounded-xl overflow-hidden shadow-md transition-all duration-300 hover:border-r-15 hover:border-b-14 hover:border-[#E8E4E1] hover:rounded-br-3xl">
+            <img src="assets/images/family-ludo.svg" alt="Kids Climbing" class="w-full h-56 p-1 mt-3" />
             <div class="flex gap-2 px-9">
               <ul class="flex gap-2">
                 <li class="text-xs flex items-center gap-1 text-white">
@@ -634,8 +635,9 @@
           </div>
 
           <!-- Card 3 -->
-          <div class="bg-[#259E44] rounded-xl overflow-hidden shadow-md">
-            <img src="assets/images/Brick-kid.svg" alt="Kids Climbing" class="w-full h-60  mt-4" />
+          <div
+            class="bg-[#259E44] rounded-xl overflow-hidden shadow-md transition-all duration-300 hover:border-r-15 hover:border-b-14 hover:border-[#E8E4E1] hover:rounded-br-3xl">
+            <img src="assets/images/Brick-kid.svg" alt="Kids Climbing" class="w-full h-56 p-1 mt-3" />
             <div class="flex gap-2 px-9">
               <ul class="flex gap-2">
                 <li class="text-xs flex items-center gap-1 text-white">
@@ -684,9 +686,9 @@
           <div
             class="bg-gradient-to-r from-[#259E44] to-[#74BB3B] rounded-xl p-6 flex flex-col gap-4 md:flex-row md:items-center justify-center md:justify-between">
             <!-- Heading -->
-            <h2 class="text-lg sm:text-xl md:text-[42px] font-semibold text-white text-center md:text-left">
+            <h2 class="text-lg sm:text-xl md:text-[35px] font-semibold text-white text-center md:text-left">
               Sign up to Our Newsletter
-              <br/>
+              <br />
               for Latest Update
             </h2>
 
@@ -730,7 +732,8 @@
 
           <!-- Programs -->
           <div>
-            <h3 class="font-bold mb-3">Programs</h3>
+            <h3 class="font-bold text-xl mb-3">Programs <img src="assets/images/Underline.svg" alt="" class="w-[95px] ">
+            </h3>
             <ul class="space-y-1 text-sm">
               <li><a href="#" class="hover:underline">Fun & Fitness</a></li>
               <li><a href="#" class="hover:underline">Fun & Fitness</a></li>
@@ -743,7 +746,8 @@
 
           <!-- Resources -->
           <div>
-            <h3 class="font-bold mb-3">Resources</h3>
+            <h3 class="font-bold text-xl mb-3">Resources <img src="assets/images/Underline.svg" alt=""
+                class="w-[101px] "></h3>
             <ul class="space-y-1 text-sm">
               <li><a href="#" class="hover:underline">Blog</a></li>
               <li><a href="#" class="hover:underline">FAQs</a></li>
@@ -753,20 +757,21 @@
 
           <!-- Gallery -->
           <div>
-            <h3 class="font-bold mb-3">Gallery</h3>
+            <h3 class="font-bold text-xl mb-3">Gallery <img src="assets/images/Underline.svg" alt="" class="w-[65px] ">
+            </h3>
             <div class="grid grid-cols-3 gap-2">
               <!-- Repeat images -->
-              <img src="assets/images/gallery-color.svg" alt="gallery" class="w-[50px] h-[50px] rounded" />
+              <img src="assets/images/gallery-color.svg" alt="gallery" class="w-[65px] h-[65px] rounded" />
               <img src="assets/images/gallery-black-white.svg" alt="gallery"
-                class="w-[50px] h-[50px] rounded grayscale" />
+                class="w-[65px] h-[65px] rounded grayscale" />
               <img src="assets/images/gallery-black-white.svg" alt="gallery"
-                class="w-[50px] h-[50px] rounded grayscale" />
+                class="w-[65px] h-[65px] rounded grayscale" />
               <img src="assets/images/gallery-black-white.svg" alt="gallery"
-                class="w-[50px] h-[50px] rounded grayscale" />
+                class="w-[65px] h-[65px] rounded grayscale" />
               <img src="assets/images/gallery-black-white.svg" alt="gallery"
-                class="w-[50px] h-[50px] rounded grayscale" />
+                class="w-[65px] h-[65px] rounded grayscale" />
               <img src="assets/images/gallery-black-white.svg" alt="gallery"
-                class="w-[50px] h-[50px] rounded grayscale" />
+                class="w-[65px] h-[65px] rounded grayscale" />
             </div>
           </div>
         </div>
