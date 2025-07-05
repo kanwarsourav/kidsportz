@@ -17,7 +17,7 @@
       font-family: "Lato", sans-serif;
     }
 
-    year-font {
+    .year-font {
       font-family: "Lato", sans-serif;
     }
 
@@ -115,29 +115,21 @@
   <!-- Banner Starts Here -->
   <div class="bg-[url('/assets/images/Banner-bg.svg')] bg-cover bg-center h-auto w-full">
     <div class="xl:w-11/12 m-auto px-2 max-w-7xl flex flex-wrap md:flex-nowrap justify-center md:justify-between">
-      <div class="flex justify-center items-center lg:w-[40%]">
-        <ul class="flex flex-col gap-3 ">
-          <li class="text-xl text-[#FF9F49] mt-20">Quest For Knowledge</li>
-          <li class="banner-font text-[70px]  font-bold text-white leading-none">
-            Join the Fun, <br />
-            Play the Game!
-          </li>
-          <li class="text-white mb-5">
-            Step into the action, embrace the excitement, and challenge <br />
-            yourself to win!
-          </li>
-          <div class="flex">
-            <li
-              class="flex px-8 py-2 rounded-full bg-gradient-to-r from-[#74BB3B] to-[#259E44] text-white text-base font-bold cursor-pointer transition hover:opacity-90">
-              Book Now
+      <div class="flex flex-col justify-center items-center lg:items-start lg:w-[62%] gap-6">
+        <h3 class="text-[#FF9F49] text-xl">Quest For Knowledge</h3>
+        <h1 class="text-white text-[70px] font-bold banner-font md:w-[75%] leading-none">Join the Fun, Play the Game!</h1>
+        <p class="text-white md:w-[80%] text-xl">Step into the action, embrace the excitement, and challenge yourself to win!</p>
+        <div class="flex">
+            <div
+              class="flex px-8 py-2 mt-2 rounded-full bg-gradient-to-r from-[#74BB3B] to-[#259E44] text-white text-base font-bold cursor-pointer mb-3 transition hover:opacity-90">
+              Know More
               <div class="flex items-center pt-1 ml-1 w-[24px] h-[24px]">
                 <img src="assets/images/arrow-right.svg" alt="Arrow" />
               </div>
-            </li>
+            </div>
           </div>
-        </ul>
       </div>
-      <div class="flex justify-center  lg:w-[35%] mr-16">
+      <div class="flex justify-center  lg:w-[38%] mr-16">
         <img src="assets/images/Girl-img.svg" alt="Girl-img" />
       </div>
     </div>
@@ -146,38 +138,42 @@
   <!-- Banner Ends Here -->
 
   <!-- About Starts Here -->
-  <div class="bg-[#FFFAF6]">
+  <div class="bg-[url('/assets/images/bg-about.svg')] bg-cover bg-center h-auto w-full">
     <div class="xl:w-11/12 m-auto px-2 max-w-7xl flex flex-wrap md:flex-nowrap justify-center md:justify-between py-8">
       <div class="flex justify-center items-center lg:w-[40%] ">
         <img src="assets/images/Cricket-kid.svg" alt="Cricket-kid" class="flex justify-center items-center" />
       </div>
-      <div class=" lg:w-[43%]">
-        <ul class="flex flex-col gap-3 ">
-          <li class="text-xl text-[#FF9F49] mt-20">About KIDZSPORT</li>
-          <li class="banner-font  text-[52px] font-bold text-[#002D45] leading-none">
+      <div class=" flex items-center lg:w-[43%]">
+        <div class="flex flex-col gap-3 ">
+          <h3 class="text-xl text-[#FF9F49] ">About KIDZSPORT</h3>
+          <h2 class="banner-font  text-[52px] font-bold text-[#002D45] leading-none">
             Engaging kids <br />
             through fun
-          </li>
-          <li class="text-[#002D45] mb-5">
+          </h2>
+          <p class="text-[#002D45] mb-5">
             interactive sports lessons and events, our company promotes <br />
             healthy habits and teamwork. Join us on social media for tips,
             <br />
             challenges, and exciting giveaways!
-          </li>
+          </p>
           <div class="flex flex-col gap-3">
-            <div class="flex items-center gap-1">
+            <div class="flex items-center gap-2">
               <img src="assets/images/Tik.svg" alt="" />
-              <span class="flex">Empowering kids through dynamic activities</span>
+              <ul> 
+              <li class="flex">Empowering kids through dynamic activities</li>
+              </ul>
             </div>
-            <div class="flex items-center gap-1">
+            <div class="flex items-center gap-2">
               <img src="assets/images/Tik.svg" alt="" />
-              <p class="flex">
-                Dedicated team fosters a inclusive environment
-              </p>
+               <ul> 
+              <li class="flex">Dedicated team fosters a inclusive environment</li>
+              </ul>
             </div>
-            <div class="flex items-center gap-1">
+            <div class="flex items-center gap-2">
               <img src="assets/images/Tik.svg" alt="" />
-              <p class="flex">Join us for a transformative experience</p>
+               <ul> 
+              <li class="flex">Join us for a transformative experience</li>
+              </ul>
             </div>
           </div>
           <div class="flex">
@@ -189,7 +185,7 @@
               </div>
             </li>
           </div>
-        </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -197,7 +193,7 @@
   <!-- About Ends Here -->
 
   <!-- Events Starts Here -->
-  <div>
+  <div class="bg-[url('/assets/images/event-bg.svg')] bg-cover bg-center h-auto w-full">
     <div
       class="xl:w-11/12 m-auto px-2 max-w-7xl py-10 flex flex-wrap md:flex-nowrap justify-center md:justify-between mt-4">
       <div class="flex justify-center items-center">
@@ -211,7 +207,7 @@
             Sports Kids <br />
             Events
           </li>
-          <li class="text-[#002D45] mb-5">
+          <p class="text-[#002D45] mb-5">
             provide a fun and engaging environment where children can
             participate <br />
             in various physical activities, fostering teamwork and healthy
@@ -219,7 +215,7 @@
             competition. These events focus on inclusivity, safety, and
             creating <br />
             positive experiences for kids of all skill levels.
-          </li>
+          </p>
 
           <div class="flex justify-center gap-4">
             <li class="flex px-8 py-2 rounded-full text-[#259E44] text-base font-bold cursor-pointer">
@@ -349,19 +345,19 @@
   <div>
     <div class="xl:w-11/12 m-auto px-2 max-w-7xl mt-20 relative">
       <div class="hidden md:block absolute top-0 left-0 z-10">
-        <img src="/assets/images/baseball.svg" alt="Boy with bat" class="h-[300px] ml-10 -mt-16" />
+        <img src="/assets/images/baseball.svg" alt="Boy with bat" class="h-[300px] ml-10 -mt-22" />
       </div>
 
-      <ul class="text-center py-9 px-4">
-        <li class="text-orange-500 font-semibold uppercase tracking-wide text-lg flex flex-col items-center">
+      <ul class="text-center py-5 px-4">
+        <h3 class="text-orange-500 font-semibold uppercase tracking-wide text-lg flex flex-col items-center">
           Our Programs
           <img src="assets/images/Underline.svg" alt="" class="w-[140px] ">
-        </li>
+        </h3>
 
-        <li class="banner-font text-[42px] font-bold text-[#002D45] mt-2">
+        <h2 class="banner-font text-[42px] font-bold text-[#002D45] mt-2 -pb-4">
           Young Minds <br />
           Adventures and Innovations
-        </li>
+        </h2>
       </ul>
 
       <!-- Cards Section -->
@@ -465,8 +461,8 @@
   <div>
     <div
       class="xl:w-11/12 m-auto mt-10 px-2 max-w-7xl flex flex-wrap md:flex-nowrap justify-center md:justify-between bg-gradient-to-r from-[#31AAE3] to-[#FFFFFF] rounded-3xl">
-      <div class="md:w-[65%]">
-        <ul class="flex flex-col justify-center items-center gap-5">
+      <div class="md:w-[65%] ">
+        <ul class="flex flex-col justify-center items-center gap-5 py-14">
           <li class="banner-font text-[42px] text-center font-bold text-[#002D45] mt-2">
             Testimonial
           </li>
@@ -545,14 +541,14 @@
   <div class="bg-[#FFFAF6]">
     <div class="xl:w-11/12 max-w-7xl flex flex-col m-auto px-2 mt-32  pb-32">
       <ul>
-        <li class="banner-font text-[42px] text-center font-bold text-[#002D45] mt-2">
+        <h2 class="banner-font text-[42px] text-center font-bold text-[#002D45] mt-2">
           Latest Blog
-        </li>
-        <li class="text-center text-base mb-10">
+        </h2>
+        <p class="text-center text-base mb-10">
           Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
           mi. <br />
           Aliquam in hendrerit urna.
-        </li>
+        </p>
       </ul>
 
       <div class="max-w-7xl  flex flex-wrap md:flex-nowrap  justify-center  md:justify-between gap-5">
